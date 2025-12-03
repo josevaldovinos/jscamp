@@ -405,7 +405,6 @@ article {
     justify-content: center;
     gap: 0.5rem;
     margin-block: 2rem;
-    background-color: var(--primary);
 
     a {
         display: flex;
