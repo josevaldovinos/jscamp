@@ -1,2 +1,2 @@
 # jscamp
-Repo to record all the progress fo the the FullStack bootcamp that I'm taking
+Repo to record the progress for the the FullStack bootcamp that I'm taking

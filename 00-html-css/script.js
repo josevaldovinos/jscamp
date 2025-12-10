@@ -35,3 +35,21 @@ jobsListingSection.addEventListener('click', (event) => {
         element.disabled = true;
     }
 });
+
+const filterTechnology = document.querySelector('#filter-technology');
+
+filterTechnology.addEventListener('change', () => {
+    console.log(filterTechnology.value);
+});
+
+const filterLocation = document.querySelector('#filter-location');
+
+filterLocation.addEventListener('change', () => {
+    console.log(filterLocation.value);
+});
+
+const filterExperienceLevel = document.querySelector('#filter-experience-level');
+
+filterExperienceLevel.addEventListener('change', () => {
+    console.log(filterExperienceLevel.value);
+});
