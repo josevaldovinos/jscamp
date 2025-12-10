@@ -37,9 +37,17 @@ jobsListingSection.addEventListener('click', (event) => {
 });
 
 const filterTechnology = document.querySelector('#filter-technology');
+const mensaje = document.querySelector('#filter-selected-value');
 
 filterTechnology.addEventListener('change', () => {
     console.log(filterTechnology.value);
+    const selectedValue = filterTechnology.value;
+
+    if (selectedValue) {
+        mensaje.textContent = `Has seleccionado: ${selectedValue}`;
+    } else {
+        mensaje.textContent = '';
+    }
 });
 
 const filterLocation = document.querySelector('#filter-location');
